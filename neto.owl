@@ -1,0 +1,966 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#"
+     xml:base="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:untitled-ontology-87="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasKeyword -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasKeyword">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Node"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Keyword"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasSameInterest -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasSameInterest">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Node"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Node"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasSpecificTopic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasSpecificTopic">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasSubject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasSubject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasTopic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasTopic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#subTopicOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#subTopicOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Keyword -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Keyword"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Node -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Node"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#None -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#None"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#SpecificTopic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#SpecificTopic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Topic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Subject"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Topic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Topic"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Model-driven_software_engineering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Model-driven_software_engineering">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Subject"/>
+        <subTopicOf rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Software_system_models"/>
+        <name>software-engineering</name>
+        <name>softwareengineering</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#None -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#None">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#None"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Software_system_models -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Software_system_models">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Subject"/>
+        <subTopicOf rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#None"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#authorOne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#authorOne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Node"/>
+        <hasKeyword rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#kwsoftwareengineering"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#authorTwo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#authorTwo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Node"/>
+        <hasKeyword rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#kwsoftwareengineering"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#devOne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#devOne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Node"/>
+        <hasKeyword rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#python3"/>
+        <hasKeyword rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#rest-api"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#kwsoftwareengineering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#kwsoftwareengineering">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Keyword"/>
+        <name>softwareengineering</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#python -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#python">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Subject"/>
+        <hasSpecificTopic rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#webservices-with-python"/>
+        <subTopicOf rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#None"/>
+        <name>python</name>
+        <name>python3</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#python3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#python3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Keyword"/>
+        <name>python3</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#rest-api -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#rest-api">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Keyword"/>
+        <name>rest-api</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#webservices -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#webservices">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Subject"/>
+        <hasSpecificTopic rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#webservices-with-python"/>
+        <subTopicOf rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#None"/>
+        <name>rest-api</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#webservices-with-python -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#webservices-with-python">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#SpecificTopic"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Model-driven_software_engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#None"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Software_system_models"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#authorOne"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#authorTwo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#devOne"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#kwsoftwareengineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#python"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#python3"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Model-driven_software_engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#None"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Software_system_models"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#authorOne"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#authorTwo"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#kwsoftwareengineering"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/k">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/s">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/n1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/n2">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/n">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/t">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/s2">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#n">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#s">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#t1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#t2">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#st">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/s1">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/s3">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Keyword"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/k"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Subject"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#name"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/k"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/n1"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#name"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/n2"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#equal"/>
+                                                        <swrl:arguments rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/n1"/>
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/vitor/ontologies/2017/11/n2"/>
+                                                        </swrl:arguments>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasSubject"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/k"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S7</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Node"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/n"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Node"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/n2"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Topic"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/t"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasTopic"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/n"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/t"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasTopic"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/n2"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/t"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
+                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/n"/>
+                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/n2"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasSameInterest"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/n"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/n2"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S5</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Node"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/n"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasSubject"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/n"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#subTopicOf"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s2"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Subject"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s2"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasSubject"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/n"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s2"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S2</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Node"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/n"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasKeyword"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/n"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/k"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasSubject"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/k"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasSubject"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/n"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S6</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Node"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#n"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasSubject"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#n"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#s"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Topic"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#s"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasTopic"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#n"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S8</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Node"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#n"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasTopic"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#n"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#t1"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasTopic"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#n"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#t2"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasSpecificTopic"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#t1"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#st"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasSpecificTopic"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#t2"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#st"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#hasSpecificTopic"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#n"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#st"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S3</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Subject"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s1"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#subTopicOf"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s1"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s2"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#None"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s2"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Topic"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s1"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S4</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Subject"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s1"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Subject"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s2"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#Subject"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s3"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#subTopicOf"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s1"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s2"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#subTopicOf"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s2"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s3"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/untitled-ontology-87#subTopicOf"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s1"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/vitor/ontologies/2017/11/s3"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
